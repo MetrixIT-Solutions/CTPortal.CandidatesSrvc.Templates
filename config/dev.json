@@ -1,0 +1,29 @@
+{
+    "license": "Copyright (C) SkillworksIT Solutions Pvt Ltd - All Rights Reserved. Unauthorized copying of this file, via any medium is strictly prohibited. Proprietary and confidential. Written by Skillworks IT <contact@skillworksit.com>, Aug 2024",
+    "mongoDBConnection": "mongodb://localhost:27017/ctp_b2b_tempts",
+
+    "senderMail": "skillworksit@gmail.com",
+    "senderMailPswd": "nvkldrtevztbkvyv",
+    "smtp": "smtp.gmail.com",
+    "smtpPort": 465,
+    "from": "NoReply<skillworksit@gmail.com>",
+    "jwtSecretKey": "euCTPa6tner$!&J*$D@-kv^NA|Dev",
+    "criptoTokenKey": "EUak17!&J*$D@^N|Ctp@#Apkv226|Dev",
+    "dbSecretKey": "euCtpDB@AK17!&*$D@^N|#A226kv|Dev",
+
+    "lclPath": "temp-docs",
+    "awsAccessKey": "AKIAZEHQA5VLHXOHWBUI",
+    "awsSecretKey": "${AWS_SECRET_ACCESS_KEY}",
+    "awsRegion": "us-east-1",
+    "awsBucketName": "ctp.devtest",
+    "awsS3Bucket": "https://s3.us-east-1.amazonaws.com/ctp.devtest/",
+    "awsS3Cklst": "checklist",
+
+    "ssnApi": "http://localhost:3201/ctpcust/v1/end/users/auth-user/session",
+    "ssnLogoutApi": "http://localhost:3201/ctpcust/v1/end/users/auth-logout",
+    "temCountApi": "http://localhost:3203/ctpeu/v1/eusr/lead/template/count",
+    "h1bTCountApi": "http://localhost:3431/ctpb2b/v1/eusr/h1bpetition/template/count",
+    "oflTCountApi": "http://localhost:3432/ctpb2b/v1/eusr/ofrltr/template/count",
+
+    "apiHost": "http://localhost:3213/"
+}

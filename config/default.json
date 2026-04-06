@@ -1,0 +1,24 @@
+{
+    "appName": "CT(Candidates Tracking) Portal End Users - B2B End Users / Candidates / Applicants Templates API Service",
+    "license": "Copyright (C) SkillworksIT Solutions Pvt Ltd - All Rights Reserved. Unauthorized copying of this file, via any medium is strictly prohibited. Proprietary and confidential. Written by Skillworks IT <contact@skillworksit.com>, Aug 2024",
+    "mySalt": "90889ff4575280f5af56c1ca1aab4ae7",
+    "mySaltLen": 32,
+
+    "logName": "ctpEuTemplatesApiLogger",
+    "logFilesPath": "logs/ctpeutemplates.api.log",
+    "logDtPattern": "YYMMDD",
+    "logFilesLevel": "debug",
+
+    "mobSsnExprType": "days",
+    "mobSsnExpr": 90,
+    "webSsnExprType": "days",
+    "webSsnExpr": 8,
+    "otpSsnExprType": "minutes",
+    "otpSsnExpr": 10,
+
+    "chars": "abcdefghijklmnopqrstuvwxyz",
+
+    "collB2BEuAppliedTemps": "b2b_euapplied_temps",
+    "collB2BFlwupTemps": "b2b_flwup_temps",
+    "collB2BFlwupTempsCkLst": "b2b_flwup_temps_cklst"
+}
